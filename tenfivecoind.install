@@ -1,0 +1,7 @@
+post_install() {
+	echo "Tip some 10-5s in my direction if you like this package! TuNi5KUPjnVWpkvxz5FNXThjVkeF5YrzuK"
+}
+
+post_upgrade() {
+    post_install $1
+}
